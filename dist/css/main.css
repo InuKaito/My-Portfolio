@@ -189,6 +189,12 @@ main {
     padding: 0.5rem;
     border-bottom: #f5788d 5px solid; }
 
+h3 {
+  font-size: 25px; }
+
+h6 {
+  font-size: 15px; }
+
 .projects {
   display: grid;
   grid-gap: 0.7rem;
