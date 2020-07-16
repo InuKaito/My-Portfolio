@@ -57,13 +57,18 @@
       height: 250px;
       background: url("../img/portait.jpg");
       border-radius: 50%;
-      border: solid 3px #f5788d; }
+      border: solid 3px #f5788d;
+      margin-bottom: 50px; }
       .menu-branding .portrait h2 {
         text-align: center;
         margin-top: 260px;
         font-size: 30px;
         color: #f5788d;
         font-weight: 500; }
+      .menu-branding .portrait a {
+        text-align: center;
+        margin-left: 35px;
+        margin-top: 10px; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.9s ease-out; }
@@ -211,6 +216,7 @@ h6 {
 .boxes {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   margin-top: 1rem; }
