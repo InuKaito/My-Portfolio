@@ -203,9 +203,6 @@ main {
 h3 {
   font-size: 25px; }
 
-h6 {
-  font-size: 15px; }
-
 .projects {
   display: grid;
   grid-gap: 0.7rem;
